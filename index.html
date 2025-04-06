@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    
+    <div class="game-container">
+        <div class="score-display">
+            <div class="score-box">
+                <div class="score-title">Your Score</div>
+                <div class="score-value">0</div>
+            </div>
+            <div class="score-box">
+                <div class="score-title">Computer Score</div>
+                <div class="score-value">0</div>
+            </div>
+        </div>
+        
+        <div class="game-area">
+            <div class="choices-display">
+                <div class="choice" id="player-choice">
+                    <i class="fas fa-question"></i>
+                </div>
+                <div class="vs">VS</div>
+                <div class="choice" id="computer-choice">
+                    <i class="fas fa-question"></i>
+                </div>
+            </div>
+            
+            <div class="result-display">
+                <p class="result-text">Choose your weapon!</p>
+            </div>
+            
+            <div class="player-options">
+                <button class="option" data-choice="rock">
+                    <i class="fas fa-hand-back-fist"></i>
+                </button>
+                <button class="option" data-choice="paper">
+                    <i class="fas fa-hand"></i>
+                </button>
+                <button class="option" data-choice="scissors">
+                    <i class="fas fa-hand-scissors"></i>
+                </button>
+            </div>
+            
+            <p class="game-message">First to score 5 points wins the game!</p>
+
+            <div class="winner-message"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
