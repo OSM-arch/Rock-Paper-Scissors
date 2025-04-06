@@ -6,9 +6,6 @@
   <a href="https://github.com/OSM-arch/Rock-Paper-Scissors">
     <img src="https://img.shields.io/badge/Play-Online-brightgreen?style=for-the-badge" alt="Play Online">
   </a>
-  <a href="https://github.com/OSM-arch/Rock-Paper-Scissors/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License">
-  </a>
 </div>
 
 ## ✨ Features
